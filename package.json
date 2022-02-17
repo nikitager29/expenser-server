@@ -1,0 +1,20 @@
+{
+  "name": "expenser-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^6.1.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.16.1",
+    "sequelize-auto": "^0.8.8",
+    "sqlite3": "^5.0.2"
+  }
+}
